@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oregano&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #F8EFBA;
+}
+.ra{
+	position: absolute;
+	left: 15%;
+	top: 2%;
+}
+.heading{
+	position: absolute;
+	left: 40%
+}
+.heading h2{
+	font-size: 50px;
+	position:10px;
+}
+.heading ul{
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	width: 40%;
+	margin: 10px 15px;
+}
+.headign p{
+	margin-top: 10px;
+}
+.heading ul li a{
+text-decoration: none;
+font-size: 20px;
+color: #636e72;
+}
+
+#mr{
+	background-color: #0984e3;
+	position: absolute;
+	border-radius: 70px;
+	height: 70px;
+	width: 70px;
+	text-align: center;
+	padding: 10px;
+	display: block;
+
+	
+}
+#mw{
+	background-color: #e84393;
+	position: absolute;
+	border-radius: 70px;
+	height: 70px;
+	width: 70px;
+	left: 13.5%;
+	padding: 10px;
+	text-align: center;
+	display: block;
+}
+#ms{
+	background-color: #00b894;
+	position: absolute;
+	border-radius: 70px;
+	height: 70px;
+	width: 70px;
+	left: 25%;
+	text-align: center;
+	padding: 10px;
+	display: block;
+}
+.menu ul{
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	background-color: #CAD3C8;
+	margin:35px 0;
+	
+}
+
+.menu ul li:hover > a{
+	background-color: #a29bfe;
+}
+.menu ul li a{
+	color: #2C3A47;
+	padding: 15px 10px;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: 'Oregano', cursive; 
+}
+.image img{
+	height: 350px;
+	width: 350px;
+	position: absolute;
+	left: 120px;
+	transform: translate(60px);
+	border-radius: 50%
+
+
+
+
+}
