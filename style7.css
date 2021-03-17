@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Paytone+One&family=Ultra&display=swap');
+*{
+	margin: none;
+}
+
+.RO h2 i{
+	color: #fff;
+	font-size: 50px;
+}
+
+
+.Manu{
+	background-color: #808e9b;
+}
+
+.Manu ul{
+	display: flex;
+	list-style: none;
+	justify-content: center;
+
+}
+.Manu ul li a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	font-family: 'Paytone One', sans-serif;
+}
+.Manu ul li a:hover{
+	background-color: #0be881;
+}
+
+.RO{
+background-color: #33d9b2;
+width: 45%; 
+padding: 25px;
+}
+.DM{
+	background-color: #706fd3;
+	width: 45%;
+	padding: 25px
+	}
+.WTP{
+	display: flex;
+	justify-content: space-around;
+	}
+	.gallery{
+		background-color: #CAD3C8;
+		padding: 75px 0;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	
+	}
+	.gallery-1{
+		width: 33%;
+		background-color: #B33771;
+}
+
+.gallery-1 img{
+	width: 100%;
+}
+.cation{
+	height: 300px;
+	width: 600px;
+	background-color: #1e272e;
+	margin: 100px auto;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+.anion{
+	height: 150px;
+	width: 150px;
+	background-color: #d2dae2;
+	border-radius: 50% ;
+}
+
+.water h2 i{
+	color: #fff;
+	font-size: 60px;
+}
+
